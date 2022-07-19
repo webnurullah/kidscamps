@@ -1,0 +1,39 @@
+/* color patten */
+:root {
+    --white: #ffffff;
+    --orange: #F18063;
+    --grayxdark: #37382C34;
+    --graydark : #45463619;
+    --graylight: #0000000D;
+    --graythin: #0000000A;
+    --graylshad: #F4F4F4;
+    --green: #404134;
+    --vegetation: #5CCC95;
+    --Shrimp: #F4A664;
+}
+.h1, .h2, .h3, .h4, .h5, .h6,
+h1, h2, h3, h4, h5, h6{
+    color: var(--green);
+    font-family: 'Nerko One', cursive;
+    font-weight: 400;
+}
+h1, .h1{
+    font-size: 72px;
+}
+h2, .h2{
+    font-size: 60px;
+}
+h3, .h3{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+h4, .h4{
+    font-size: 48px;
+}
+h5, .h5{
+    font-size: 24px;
+}
+h6, .h6{
+    font-size: 20px;
+}
