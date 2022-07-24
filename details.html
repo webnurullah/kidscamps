@@ -30,24 +30,21 @@
       <!-- -------------------------- hero section---------------------- -->
       <section class="details-page-banner" >
              <nav class="details-headeer w-100">
-              <div class="d-flex justify-content-between " >
-                <div class="">
+              <div class="d-flex justify-content-between align-items-center" >
+                <a href="index.html" class="back-page-menu text-decoration-none ">
                     <i class="fa-solid fa-left-long"></i>
                     <span>Zurück</span>
-                </div>
+                </a>
               
-                <div class="">
-                  <div class="dropdown">
-                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                      DE
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                      <li><a class="dropdown-item" href="#">EN</a></li>
-                      <li><a class="dropdown-item" href="#">SP</a></li>
-                    </ul>
-                  </div>
+                <div class="dropdown-lang">
+                  <select class="form-select" id="autoSizingSelect1">
+                    <option selected>DE</option>
+                    <option value="1">BN</option>
+                    <option value="2">EN</option>
+                  </select>
                 </div>
-                <div>
+                <div class="d-none d-xl-block" >
+
                 </div>
               </div>
             </nav>
@@ -55,45 +52,50 @@
 
             <div class="container details-banner">
               <div class="row">
-                <div class="col-12 col-md-7 first-row">
-                  <span class="span" >COOPERATIVA SOCIALE BABEL</span>
-                  <h1 class="h1" >
-                    Sommerbetreuung <br> Für Kinder
-                  </h1>
-                  <P class="text" >Das Sommerprojekt „Kinderbabylon“ in Eppan, für Kinder im Alter von 4 bis 12 Jahren, findet vom 20/06/22 bis zum 12/08/22 in der italienischen Grundschule „S.Michele“, im St.-Anna-Weg 6 in Eppan statt. Die Betreuungszeiten sind flexibel. Die Eintrittszeiten sind zwischen 7:30 und 8:30 und die Abholzeiten zwischen 15:30 und 16:00 Uhr.</P>
-                  <div class="hr" ></div>
-                  <div class="d-flex justify-content-between banner-info" >
-                    <div class="d-flex" >
-                        <i class="fa-solid fa-calendar"></i>
-                        <div>
-                          <p class="fw-bold">Zeitraum: </p>
-                          <span>20.06. - 12.08.2022</span>
+                <div class="col-12 col-xl-6 col-xxl-8">
+                  <img class="img-fluid d-xl-none pic" src="images/childpic.png" alt="">
+                  <div class="first-row">
+                    <span class="span fs-12" >COOPERATIVA SOCIALE BABEL</span>
+                    <h1 class="h1" >
+                      Sommerbetreuung <br> Für Kinder
+                    </h1>
+                    <P class="text " >Das Sommerprojekt „Kinderbabylon“ in Eppan, für Kinder im Alter von 4 bis 12 Jahren, findet vom 20/06/22 bis zum 12/08/22 in der italienischen Grundschule „S.Michele“, im St.-Anna-Weg 6 in Eppan statt. Die Betreuungszeiten sind flexibel. Die Eintrittszeiten sind zwischen 7:30 und 8:30 und die Abholzeiten zwischen 15:30 und 16:00 Uhr.</P>
+                    <div class="hr" ></div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between banner-info" >
+                      <div class="d-flex" >
+                          <i class="fa-solid fa-calendar"></i>
+                          <div class="d-flex flex-md-column " >
+                            <p class="fw-bold fs-14">Zeitraum: </p>
+                            <span class="fs-14">20.06. - 12.08.2022</span>
+                          </div>
+                      </div>
+                      <div class="d-flex">
+                          <i class="fa-solid fa-location-dot"></i>
+                          <div class="d-flex flex-md-column" >
+                            <p class="fw-bold fs-14">Veranstaltungsort: </p>
+                            <span class="fs-14">St. Pauls</span>
+                          </div>
+                      </div>
+                      <div class="d-flex" >
+                        <i class="fa-solid fa-calendar-lines-pen"></i>
+                        <div class="d-flex flex-md-column" >
+                          <p class="fw-bold fs-14">Anmeldung: </p>
+                          <span class="fs-14">von 07.02. bis 30.04.2022</span>
                         </div>
-                    </div>
-                    <div class="d-flex">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <div>
-                          <p class="fw-bold">Veranstaltungsort: </p>
-                          <span>St. Pauls</span>
-                        </div>
-                    </div>
-                    <div class="d-flex" >
-                      <i class="fa-solid fa-calendar-lines-pen"></i>
-                      <div>
-                        <p class="fw-bold">Anmeldung: </p>
-                        <span>von 07.02. bis 30.04.2022</span>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-12 col-md-5">
-                  <img class="pic" src="images/pic.png" alt="">
-                  <div class="banner-price d-flex justify-content-end">
-                    <div>
-                      <span>ab</span>
-                      <h4 class="h4">68,00 €</h4>
-                      <p>pro Kind & Zeitraum</p>
-                      <a class="btn btn-first"  href="">Jetzt anmelden</a>
+                <div class="col-12 col-xl-6 col-xxl-4">
+                  <img class="pic d-none d-xl-block" src="images/childpic.png" alt="">
+                  <div class="price-box d-xl-flex justify-content-xl-end">
+                    <div class="d-flex flex-xl-column justify-content-between justify-content-sm-around align-items-center" >
+                       <div >
+                        <span class="fs-12" >ab</span>
+                        <h4 class="h4 d-inline d-lg-block">68,00 €</h4>
+                        <p class="fs-12" >pro Kind & Zeitraum</p>
+                       </div>
+                      <div> <a class="btn btn-first fs-12"  href="">Jetzt anmelden</a></div>
                     </div>
                   </div>
                 </div>
@@ -106,34 +108,36 @@
       <section class="programm-section" >
         <div class="container">
             <div class="row program-heading">
-                <div class="col-md-4">
-                  <div class="d-none d-md-block shape-title-box">
-                    <img class="shape" src="images/Shape.svg" alt="">
-                     <h2>Programm</h2>
+                <div class="col-lg-4">
+                  <div class="d-none d-md-block ">
+                    <div class="shape-title-box d-inline-block" >
+                      <img class="shape" src="images/Shape.svg" alt="">
+                      <h2>Programm</h2>
+                    </div>
                  </div>
                 </div>
-                <div class="col-md-8">
+                <div class="col-lg-8">
                     <div class="col-12 col-md-4">
                         <h4>Wann?</h4>
                     </div>
                     <div class="row p-30">
                       <div class="col-12 d-md-none">
-                        <span class="">PROGRAMM</span>
+                        <span data-bs-toggle="modal" data-bs-target="#exampleModal" class="span fs-14 cp ">PROGRAMM</span>
                       </div>
                       <div class="col-8 col-md-5">
                       
                             <ul class="list-unstyled" >
-                              <li> <span class="fw-bold"> Zeitraum:</span>  20.06. - 24.06.2022 </li>
-                              <li><span class="fw-bold">Uhrzeit:</span> 07:30 - 16:00</li>
+                              <li class="fs-14" > <span class="fw-bold "> Zeitraum:</span>  20.06. - 24.06.2022 </li>
+                              <li class="fs-14" ><span class="fw-bold">Uhrzeit:</span> 07:30 - 16:00</li>
                             </ul>
                         
                       </div>
                       <div class="col-4 col-md-5">
                     
                             <ul class="list-unstyled" >
-                              <li> <span class="fw-bold">  Plätze:</span> 65 </li>
-                              <li><span class="fw-bold">Preis: </span>  68,00 € 
-                                <i class="fa-solid fa-circle-info"></i>
+                              <li class="fs-14" > <span class="fw-bold">  Plätze:</span> 65 </li>
+                              <li class="fs-14" ><span class="fw-bold">Preis: </span>  68,00 € 
+                                <i data-bs-toggle="modal" data-bs-target="#exampleModal" class="fa-solid fa-circle-info d-none d-sm-inline"></i>
                               </li>
                            
                           </ul>
@@ -141,27 +145,27 @@
                         
                       </div>
                       <div class="col-12 col-md-2 d-none d-md-block text-end">
-                          <span data-bs-toggle="modal" data-bs-target="#exampleModal" class="span" >PROGRAMM</span>
+                          <span data-bs-toggle="modal" data-bs-target="#exampleModal" class="span cp" >PROGRAMM</sp>
                       </div>
                     </div>
                     <div class="row p-30">
                       <div class="col-12 d-md-none">
-                        <span class="">PROGRAMM</span>
+                        <span data-bs-toggle="modal" data-bs-target="#exampleModal" class="span fs-14 cp ">PROGRAMM</span>
                       </div>
                       <div class="col-8 col-md-5">
                       
                             <ul class="list-unstyled" >
-                              <li> <span class="fw-bold"> Zeitraum:</span>  20.06. - 24.06.2022 </li>
-                              <li><span class="fw-bold">Uhrzeit:</span> 07:30 - 16:00</li>
+                              <li class="fs-14" > <span class="fw-bold "> Zeitraum:</span>  20.06. - 24.06.2022 </li>
+                              <li class="fs-14" ><span class="fw-bold">Uhrzeit:</span> 07:30 - 16:00</li>
                             </ul>
                         
                       </div>
                       <div class="col-4 col-md-5">
                     
                             <ul class="list-unstyled" >
-                              <li> <span class="fw-bold">  Plätze:</span> 65 </li>
-                              <li><span class="fw-bold">Preis: </span>  68,00 € 
-                                <i class="fa-solid fa-circle-info"></i>
+                              <li class="fs-14" > <span class="fw-bold">  Plätze:</span> 65 </li>
+                              <li class="fs-14" ><span class="fw-bold">Preis: </span>  68,00 € 
+                                <i data-bs-toggle="modal" data-bs-target="#exampleModal" class="fa-solid fa-circle-info d-none d-sm-inline"></i>
                               </li>
                            
                           </ul>
@@ -169,27 +173,27 @@
                         
                       </div>
                       <div class="col-12 col-md-2 d-none d-md-block text-end">
-                          <span class="span" >PROGRAMM</span>
+                          <span data-bs-toggle="modal" data-bs-target="#exampleModal" class="span cp" >PROGRAMM</sp>
                       </div>
                     </div>
                     <div class="row p-30">
                       <div class="col-12 d-md-none">
-                        <span class="">PROGRAMM</span>
+                        <span data-bs-toggle="modal" data-bs-target="#exampleModal" class="span fs-14 cp ">PROGRAMM</span>
                       </div>
                       <div class="col-8 col-md-5">
                       
                             <ul class="list-unstyled" >
-                              <li> <span class="fw-bold"> Zeitraum:</span>  20.06. - 24.06.2022 </li>
-                              <li><span class="fw-bold">Uhrzeit:</span> 07:30 - 16:00</li>
+                              <li class="fs-14" > <span class="fw-bold "> Zeitraum:</span>  20.06. - 24.06.2022 </li>
+                              <li class="fs-14" ><span class="fw-bold">Uhrzeit:</span> 07:30 - 16:00</li>
                             </ul>
                         
                       </div>
                       <div class="col-4 col-md-5">
                     
                             <ul class="list-unstyled" >
-                              <li> <span class="fw-bold">  Plätze:</span> 65 </li>
-                              <li><span class="fw-bold">Preis: </span>  68,00 € 
-                                <i class="fa-solid fa-circle-info"></i>
+                              <li class="fs-14" > <span class="fw-bold">  Plätze:</span> 65 </li>
+                              <li class="fs-14" ><span class="fw-bold">Preis: </span>  68,00 € 
+                                <i data-bs-toggle="modal" data-bs-target="#exampleModal" class="fa-solid fa-circle-info d-none d-sm-inline"></i>
                               </li>
                            
                           </ul>
@@ -197,27 +201,27 @@
                         
                       </div>
                       <div class="col-12 col-md-2 d-none d-md-block text-end">
-                          <span class="span" >PROGRAMM</span>
+                          <span data-bs-toggle="modal" data-bs-target="#exampleModal" class="span cp" >PROGRAMM</sp>
                       </div>
                     </div>
                     <div class="row p-30">
                       <div class="col-12 d-md-none">
-                        <span class="">PROGRAMM</span>
+                        <span data-bs-toggle="modal" data-bs-target="#exampleModal" class="span fs-14 cp ">PROGRAMM</span>
                       </div>
                       <div class="col-8 col-md-5">
                       
                             <ul class="list-unstyled" >
-                              <li> <span class="fw-bold"> Zeitraum:</span>  20.06. - 24.06.2022 </li>
-                              <li><span class="fw-bold">Uhrzeit:</span> 07:30 - 16:00</li>
+                              <li class="fs-14" > <span class="fw-bold "> Zeitraum:</span>  20.06. - 24.06.2022 </li>
+                              <li class="fs-14" ><span class="fw-bold">Uhrzeit:</span> 07:30 - 16:00</li>
                             </ul>
                         
                       </div>
                       <div class="col-4 col-md-5">
                     
                             <ul class="list-unstyled" >
-                              <li> <span class="fw-bold">  Plätze:</span> 65 </li>
-                              <li><span class="fw-bold">Preis: </span>  68,00 € 
-                                <i class="fa-solid fa-circle-info"></i>
+                              <li class="fs-14" > <span class="fw-bold">  Plätze:</span> 65 </li>
+                              <li class="fs-14" ><span class="fw-bold">Preis: </span>  68,00 € 
+                                <i data-bs-toggle="modal" data-bs-target="#exampleModal" class="fa-solid fa-circle-info d-none d-sm-inline"></i>
                               </li>
                            
                           </ul>
@@ -225,27 +229,27 @@
                         
                       </div>
                       <div class="col-12 col-md-2 d-none d-md-block text-end">
-                          <span class="span" >PROGRAMM</span>
+                          <span data-bs-toggle="modal" data-bs-target="#exampleModal" class="span cp" >PROGRAMM</sp>
                       </div>
                     </div>
                     <div class="row p-30">
                       <div class="col-12 d-md-none">
-                        <span class="">PROGRAMM</span>
+                        <span data-bs-toggle="modal" data-bs-target="#exampleModal" class="span fs-14 cp ">PROGRAMM</span>
                       </div>
                       <div class="col-8 col-md-5">
                       
                             <ul class="list-unstyled" >
-                              <li> <span class="fw-bold"> Zeitraum:</span>  20.06. - 24.06.2022 </li>
-                              <li><span class="fw-bold">Uhrzeit:</span> 07:30 - 16:00</li>
+                              <li class="fs-14" > <span class="fw-bold "> Zeitraum:</span>  20.06. - 24.06.2022 </li>
+                              <li class="fs-14" ><span class="fw-bold">Uhrzeit:</span> 07:30 - 16:00</li>
                             </ul>
                         
                       </div>
                       <div class="col-4 col-md-5">
                     
                             <ul class="list-unstyled" >
-                              <li> <span class="fw-bold">  Plätze:</span> 65 </li>
-                              <li><span class="fw-bold">Preis: </span>  68,00 € 
-                                <i class="fa-solid fa-circle-info"></i>
+                              <li class="fs-14" > <span class="fw-bold">  Plätze:</span> 65 </li>
+                              <li class="fs-14" ><span class="fw-bold">Preis: </span>  68,00 € 
+                                <i data-bs-toggle="modal" data-bs-target="#exampleModal" class="fa-solid fa-circle-info d-none d-sm-inline"></i>
                               </li>
                            
                           </ul>
@@ -253,22 +257,24 @@
                         
                       </div>
                       <div class="col-12 col-md-2 d-none d-md-block text-end">
-                          <span class="span" >PROGRAMM</span>
+                          <span data-bs-toggle="modal" data-bs-target="#exampleModal" class="span cp" >PROGRAMM</sp>
                       </div>
                     </div>
+             
+                 
 
 
 
-                    <div class="row p-30 Wo-box">
+                    <div class="row pl-30 Wo-box">
                       <div class="col-12 col-md-5">
                           <h4>Wo?</h4>
-                          <p> <span class="fw-bold" >Grundschule St.</span> <br> Pauls 39057 ST. PAULS <br> ST. PAULS</p>
+                          <p class="fs-14" > <span class="fw-bold " >Grundschule St.</span> <br> Pauls 39057 ST. PAULS <br> ST. PAULS</p>
                       </div>
                       <div class="col-12 col-md-5">
                         
-                            <div>
+                            <div class="p-50" >
                               <h4>Sprache?</h4>
-                              <p>Deutsch & Italienisch</p>
+                              <p class="fs-14" >Deutsch & Italienisch</p>
                             </div>
                        
                       </div>
@@ -276,33 +282,34 @@
 
 
                     <div class="row web-box">
-                      <div class="col-10">
+                      <div class="col-12 col-lg-10">
                           <h4>Für wen?</h4>
-                          <p> <span>Grundschule St.</span> <br> Pauls 39057 ST. PAULS <br> ST. PAULS</p>
-                          <ul class="list-unstyled d-flex" >
+                        
+                          <ul class="list-unstyled d-flex justify-content-start" >
                               <li>
-                                <div class="d-inline me-3 single-box" >
+                                <div class="d-inline me-1 me-md-3 single-box" >
                                   <i class="fa-solid fa-check"></i>
                                   <img src="images/circleiconbg.svg" alt="">
                                 </div>
-                                 
-                                  <span>Kindergarten</span>
+
+                                  <span class="fw-bold fs-12">Kindergarten</span>
                               </li>
                               <li >
-                                <div class="d-inline me-3 single-box">
+                                <div class="d-inline me-1 me-md-3 single-box">
                                   <i class="fa-solid fa-check"></i>
                                   <img src="images/circleiconbg.svg" alt="">
                                 </div>
-                                  <span>Grundschule</span>
+                                  <span class="fw-bold fs-12">Grundschule</span>
                               </li>
-                              <li >
-                                <div class="d-inline me-3 single-box ">
+                              <li class="d-none d-md-block" >
+                                <div class="d-inline me-1 me-md-3 single-box">
                                   <i class="fa-solid fa-check"></i>
                                   <img src="images/circleiconbg.svg" alt="">
                                 </div>
-                                  <span>Mittelschule</span>
+                                  <span class="fw-bold fs-12">Mittelschule</span>
                               </li>
                           </ul>
+                          <span class="fs-12" >Kinder: von 3-14 Jahren  </span>
                       </div>
                     
                     </div>
@@ -311,39 +318,34 @@
                 </div>
             </div>
 
-
-            
-
-         
-
-
-           
-           
         </div>
       </section>
      
-      <section class="organization-section">
-        <div class="container">
+      <section class="organization-section text-center text-md-start">
+        <div class="container-md">
             <div class="row">
-                <div class="col-12 col-md-4 shape-title-box">
-                  <img class="shape" src="images/Shape.svg" alt="">
-                  <h2>Organisator</h2>
+                <div class="col-12 col-lg-4  ">
+                  <div class="shape-title-box d-inline-block" >
+                    <img class="shape" src="images/Shape.svg" alt="">
+                    <h2>Organisator</h2>
+                  </div>
                 </div>
-                <div class="col-12 col-md-8">
+                <div class="col-12 col-lg-8 ">
                     <div class="row">
-                      <div class="col-12 col-md-5 ">
-                        <p class="span" >COOPERATIVA SOCIALE BABEL</p>
+                      <div class="col-12 col-md-6 order-3 order-md-1 p-60">
+                        <span class="span fs-12" >COOPERATIVA SOCIALE BABEL</span>
                         <ul class="list-unstyled"> 
                             <li><span class="fw-bold">Ansprechperson:</span> Fatima Azil</li>
                             <li><span class="fw-bold">Telefon:</span> <a class="text-decoration-none"  href="">0471 66 75 17</a> </li>
                             <li><span class="fw-bold"> E-Mail: </span> <a class="text-decoration-none"  href="">info@kinderbabylon.it</a> </li>
                         </ul>
                     </div>
-                    <div class="col-12 col-md-3">
-                        <img class="img-fluid" src="images/Organsisation-Logo.png" alt="">
+                    <div class="col-md-2 order-1 order-md-2">
+                        <img class="img-fluid organization-img" src="images/Organsisation-Logo.png" alt="">
                     </div>
-                    <div class="col-12 col-md-4 text-center align-self-center">
-                        <button data-bs-toggle="modal" data-bs-target="#regmodal" class="btn btn-first"  href="">JETZT ANMELDEN</button>
+                    <div class="col-md-4 order-2 order-md-3 text-end align-self-center">
+                    
+                        <button data-bs-toggle="modal" data-bs-target="#regmodal" class="btn btn-first d-none d-md-inline-block"  >JETZT ANMELDEN</button>
                     </div>
                     </div>
                 </div>
@@ -354,7 +356,7 @@
     
 
         <!-- -------------------------- footer section---------------------- -->
-        <section class="footer-section" >
+        <!-- <section class="footer-section" >
           <div class="container-fluid">
             <div class="row ">
               <div class="col-12 col-xl-8 col-xxl-6" >
@@ -381,7 +383,7 @@
               </div>
             </div>
           </div>
-        </section>
+        </section> -->
     </main>
 
 
@@ -427,7 +429,7 @@
             </div>
             <div class="row">
                 <div class="col-md-4">
-                    <h5>Daten der Erziehungsperson:</h5>
+                    <h5 class="pb-4" >Daten der Erziehungsperson:</h5>
                 </div>
                 <div class="col-md-4">
                   <input placeholder="Vorname"  type="text" class="form-control">
@@ -480,10 +482,10 @@
              </div>
              <div class="row ">
                 <div class="col-md-4">
-                  <h5>Daten des Kindes:</h5>
+                  <h5 class="mb-0 pb-4 pb-md-0">Daten des Kindes:</h5>
               </div>
-              <div class="col-md-8">
-                <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <div class="col-md-8 d-flex">
+                <ul class="nav nav-tabs align-self-end" id="myTab" role="tablist">
                   <li class="nav-item" role="presentation">
                     <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">1.Kind</button>
                   </li>
@@ -516,9 +518,9 @@
                             <input placeholder="Steuernummer"  type="text" class="form-control">
                           </div>
                         </div>
-                        <div class="row">
+                        <div class="row check-row">
                           <div class="col-md-4">
-                            <span class="fw-bold" >Schulstufe</span>
+                            <span class="fw-bold pb-4 d-block" >Schulstufe</span>
                           </div>
                           <div class="col-md-4">
                             <div class="form-check">
@@ -553,7 +555,7 @@
 
                         <div class="row">
                           <div class="col-12">
-                            <input placeholder="Wichtige Hinweise (z.B. Allergene)"  type="text" class="form-control">
+                            <input  placeholder="Wichtige Hinweise (z.B. Allergene)"  type="text" class="form-control">
                           </div>
                         </div>
                     </div>
@@ -570,12 +572,14 @@
               <div class="col-md-8">
                 <div class="form-check">
                   <input class="form-check-input" type="radio" name="zeitraum" id="zeitraum1" checked>
-                  <label class="form-check-label" for="zeitraum1">
+                  <label class="form-check-label fw-bold " for="zeitraum1">
                     08.08. - 30.09.22, Uhrzeit: 08:00 - 17:00
                   </label>
                 </div>
-                  <span>Freie Plätze: 9</span>
+                  <div class="from-price mb-60">
+                    <span>Freie Plätze: 9</span>
                   <span>Preis: € 50</span>
+                  </div>
                 <button class="btn btn-second d-block" >Kind hinzufügen</button>
               </div>
             </div>

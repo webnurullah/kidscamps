@@ -1,0 +1,310 @@
+@media (max-width:1700px){
+    .details-page-banner .pic{
+        top: 0;
+        width: 550px;
+    }
+}
+@media (max-width:1600px){
+    .details-page-banner .pic{
+        width: 500px;
+    }
+}
+@media (max-width:1500px){
+    .details-page-banner .pic{
+        width: 450px;
+    }
+    .details-page-banner .details-headeer {
+        padding-left: 5%;
+    }
+}
+@media (max-width:1400px){
+    .details-page-banner .pic{
+        width: 100%;
+    }
+    .details-page-banner .details-banner .first-row .hr {
+        margin: 50px 0px 20px;
+    }
+    .details-page-banner .first-row .banner-info p, .banner-info span {
+        margin-left: 4px;
+    }
+    .details-page-banner{
+        padding-bottom: 94px;
+    }
+}
+@media (max-width:1200px){
+    .details-page-banner{
+        padding-bottom: 170px;
+        background: url(../images/mobilebg.svg) top center no-repeat;
+        background-size: contain;
+    }
+    .details-page-banner .first-row .banner-info p, .banner-info span {
+        margin-left: 15px;
+    }
+    .details-page-banner .details-headeer {
+        padding-right: 3%;
+    }
+    .details-page-banner .details-banner .first-row {
+        margin-top: 45px;
+       
+    }
+    .price-box{
+        margin-top: 60px;
+     
+    }
+    .details-page-banner{
+        padding-bottom: 74px;
+    }
+    .web-box ul li {
+        margin-right: 60px;
+    }
+    h2, .h2{
+        font-size: 45px;
+    }
+    .details-page-banner .comshap{
+        position: relative;
+        top: -870px;
+    }
+}
+@media (max-width:992px){
+    .details-page-banner .comshap{
+        position: relative;
+        top: -830px;
+    }
+    .details-page-banner .details-banner .first-row {
+        margin-top: 40px;
+       
+    }
+    .price-box{
+        margin-top: 50px;
+       
+    }
+    .details-page-banner{
+        padding-bottom: 64px;
+    }
+    .web-box {
+        padding-top: 50px;
+    }
+    .programm-section {
+        padding-bottom: 80px;
+    }
+    .organization-section {
+        padding: 100px 0px 90px;
+    }
+    h2, .h2{
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .programm-section .shape-title-box .shape, .organization-section .shape-title-box .shape {
+        position: absolute;
+        z-index: 1;
+        left: -12%;
+        top: -13px;
+        width: 60px;
+    }
+}
+@media (max-width:768px){
+    .details-page-banner .comshap{
+        position: relative;
+        top: -920px;
+        width: 90px;
+        left: -15px;
+    }
+    .details-page-banner .details-banner .first-row {
+        margin-top: 35px;
+       
+    }
+    .price-box{
+        margin-top: 45px;
+     
+    }
+    .details-page-banner{
+        padding-bottom: 54px;
+    }
+    .pl-30::after {
+        display: none;
+    }
+    .pl-30 {
+        padding-top: 40px;
+        padding-bottom: 0px;
+    }
+    .web-box {
+        padding-top: 34px;
+    }
+    .web-box li{
+        margin-bottom: 20px;
+
+     }
+     .programm-section {
+        padding-bottom: 70px;
+    }
+    .organization-section {
+        padding: 80px 0px 70px;
+       
+    }
+    h2, .h2{
+        font-size: 35px;
+        line-height: 30px;
+    }
+    .p-60{
+        padding-top: 60px;
+        padding-bottom: 60px;
+        position: relative;
+        overflow: hidden;
+       
+    }
+    .p-60::before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #f4f4f4;
+       z-index: -1;
+    }
+    .organization-img{
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+    .programm-section .shape-title-box .shape, .organization-section .shape-title-box .shape {
+        position: absolute;
+        z-index: 1;
+        left: -11%;
+        top: -12px;
+        width: 47px;
+    }
+}
+@media (max-width:576px){
+    .details-page-banner .comshap{
+        position: relative;
+        top: -3px;
+        width: 90px;
+        left: -15px;
+    }
+    h1, .h1{
+        font-size: 36px;
+        line-height: 36px;
+        
+    }
+    h2, .h2{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    h4, .h4 {
+        font-size: 30px;
+        line-height: 24px;
+        padding-bottom: 20px;
+       
+    }
+    .p-50{
+        padding-top: 50px;
+    }
+    .web-box h4{
+        font-size: 24px;
+        line-height: 21px;
+    }
+    .span{
+        line-height: 2.67;
+        letter-spacing: 2.16px;
+
+       
+    }
+    .Wo-box p {
+        line-height: 24px;
+    }
+    .details-page-banner .details-headeer {
+        padding-top: 35px;
+    }
+    .details-page-banner .pic{
+        top: 30px;
+    }
+    .details-page-banner .details-banner .first-row {
+        margin-top: 30px;
+       
+    }
+    .details-banner .first-row h1 {
+        margin: 20px 0px 20px;
+        text-align: center;
+    }
+    .first-row{
+        text-align: center;
+    }
+  
+    .details-page-banner .details-banner .first-row .hr {
+    margin: 40px 0px 20px;
+    }
+    .price-box{
+        margin-top: 40px;
+      
+    }
+    .details-page-banner{
+        padding-bottom: 44px;
+    }
+    .container{
+        padding-right: 20px !important;
+        padding-left: 20px !important ;
+    }
+    .program-heading h4{
+        padding-top: 0px;
+        margin-bottom: 0px;
+    }
+    .web-box p {
+        padding-top: 20px;
+    }
+    .web-box ul{
+        padding-top: 4px;
+    }
+  
+    .programm-section {
+        padding-bottom: 60px;
+    }
+    .organization-section {
+        padding: 70px 0px 60px;
+    }
+ 
+    .organization-section ul li{
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .single-box img{
+        width: 26px;
+    }
+    .web-box .single-box i{
+       font-size: 11px;
+        top: 65%;
+        right: 56%;
+    }
+    .fs-12{
+        font-size: 12px !important;
+    }
+    .fs-14{
+        font-size: 14px !important;
+    }
+    .p-30{
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .details-page-banner .details-banner .first-row .text {
+        line-height: 1.8;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+    }
+    .details-page-banner .comshap {
+        position: relative;
+        top: -630px;
+        width: 85px;
+        left: -15px;
+    }
+}
+@media (max-width:400px){
+    .details-page-banner .comshap {
+        position: relative;
+        top: -660px;
+        width: 74px;
+        left: -15px;
+    }
+
+}
