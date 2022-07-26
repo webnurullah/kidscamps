@@ -27,6 +27,10 @@
 </head>
 <body>
     <main class="wrapper">
+  
+
+
+
       <!-- -------------------------- hero section---------------------- -->
       <section class="details-page-banner" >
              <nav class="details-headeer w-100">
@@ -104,6 +108,7 @@
             <img class="comshap" src="images/Combined-Shape.svg" alt="">
       </section>
 
+    
        <!-- -------------------------- progrma section---------------------- -->
       <section class="programm-section" >
         <div class="container">
@@ -331,7 +336,9 @@
                   </div>
                 </div>
                 <div class="col-12 col-lg-8 ">
+                
                     <div class="row">
+                      
                       <div class="col-12 col-md-6 order-3 order-md-1 p-60">
                         <span class="span fs-12" >COOPERATIVA SOCIALE BABEL</span>
                         <ul class="list-unstyled"> 
@@ -341,7 +348,14 @@
                         </ul>
                     </div>
                     <div class="col-md-2 order-1 order-md-2">
+                     
                         <img class="img-fluid organization-img" src="images/Organsisation-Logo.png" alt="">
+
+                        <div class="downarrow-box d-md-none position-relative">
+                          <img class="rec" src="images/circlerac.svg" alt="">
+                          <i class="fa-solid fa-comment"></i>
+                          <i class="fa-solid fa-arrow-down"></i>
+                        </div>
                     </div>
                     <div class="col-md-4 order-2 order-md-3 text-end align-self-center">
                     
@@ -353,37 +367,59 @@
         </div>
       </section>
 
-    
+
+      <div class="downarrow-box message-hover d-none d-md-block position-fixed">
+        <img class="rec" src="images/circlerac.svg" alt="">
+          <div class="rotedbox" >
+            <i class="fa-solid fa-comment"></i>
+          </div>
+      </div>
+
+      <div class="hover-address-box">
+        <div class="d-flex align-items-center">
+         <div>
+          <img class="img-fluid" src="images/Organsisation-Logo.png" alt="">
+         </div>
+          <div>
+            <h5>Cooperativa sociale Babel</h5>
+            <span class="span" >ANSPRECHPERSON</span>
+            <ul class="list-unstyled" >
+              <li class="fw-bold" >Fatima Azil Tel. </li>
+              <li> 0471 66 75 17 </li>
+              <li>info@kinderbabylon.it</li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
         <!-- -------------------------- footer section---------------------- -->
-        <!-- <section class="footer-section" >
-          <div class="container-fluid">
-            <div class="row ">
-              <div class="col-12 col-xl-8 col-xxl-6" >
-                <div class="d-flex justify-content-between align-items-center">
+       <section class="footer-section" >
+            <div class="d-flex flex-column flex-lg-row justify-content-center justify-content-xl-between align-items-center flex-wrap">
+                <div class="d-flex flex-column flex-lg-row justify-content-center justify-content-xl-between align-items-center flex-wrap ">
                   <img class="footer-logo" src="images/Footer-Logo.svg" alt="">
-                  <ul class="list-unstyled list-inline text-white" >
-                    <li class="list-inline-item" ><a href="">REGISTRIERUNG ANBIETER</a></li>
-                <span>.&nbsp;</span>
+                  <ul class="list-unstyled d-flex flex-column flex-lg-row text-white" >
+                    <li ><a href="">REGISTRIERUNG ANBIETER</a></li>
+                    <span class="d-none d-lg-inline-block" >.&nbsp; &nbsp;</span>
                    
-                    <li class="list-inline-item" ><a href="">LOGIN</a></li>
-                    <span>.&nbsp;</span>
-                    <li class="list-inline-item" ><a href="">IMPRESSUM</a></li>
-                    <span>.&nbsp;</span>
-                    <li class="list-inline-item" ><a href=""> DATENSCHUTZ & COOKIES</a></li>
+                    <li ><a href="">LOGIN</a></li>
+                    <span class="d-none d-lg-inline-block" >.&nbsp;&nbsp;</span>
+                    <li ><a href="">IMPRESSUM</a></li>
+                    <span class="d-none d-lg-inline-block" >.&nbsp;&nbsp;</span>
+                    <li ><a href=""> DATENSCHUTZ & COOKIES</a></li>
                   </ul>
                 </div>
-  
-              </div>
-              <div class="col-12 col-xl-4 col-xxl-6 text-end">
-                  <div class="align-self-center" >
-                    <span class="text-white" >Mwst.Nr. 00264460213</span>
-                  <img class="mf" src="images/MF.svg" alt="">
-                  </div>
-              </div>
+             
+                <div class="d-flex flex-column flex-lg-row justify-content-around align-items-center" >
+                    <span class="text-white nong" >Mwst.Nr. 00264460213</span>
+                    <img class="mf" src="images/MF.svg" alt="">
+                </div>
+             
             </div>
-          </div>
-        </section> -->
+       
+        </section> 
+
+        
+   
     </main>
 
 
@@ -421,7 +457,10 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
         <div class="modal-body">
-          <form action="" method="post">
+
+        
+
+       
               <!-- from one -->
             <div class="number-box" >
               <img src="images/Shape.svg" alt="">
@@ -483,17 +522,23 @@
              <div class="row ">
                 <div class="col-md-4">
                   <h5 class="mb-0 pb-4 pb-md-0">Daten des Kindes:</h5>
-              </div>
+                </div>
+
+
               <div class="col-md-8 d-flex">
                 <ul class="nav nav-tabs align-self-end" id="myTab" role="tablist">
                   <li class="nav-item" role="presentation">
                     <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">1.Kind</button>
                   </li>
                   <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">2.Kind</button>
+                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">2.Kind
+                      <i onclick="removetab()" class="fa-solid fa-trash"></i>
+                    </button>
                   </li>
                 </ul>
               </div>
+
+              
              </div>
              <div class="hr m-30"></div>
              <div class="row mb-20">
@@ -580,7 +625,7 @@
                     <span>Freie Plätze: 9</span>
                   <span>Preis: € 50</span>
                   </div>
-                <button class="btn btn-second d-block" >Kind hinzufügen</button>
+                <button onclick=" myFunction()" class="btn btn-second d-block" >Kind hinzufügen</button>
               </div>
             </div>
 
@@ -607,7 +652,8 @@
                 <button type="submit" class="btn btn-first m-30" >Jetzt anmelden</button>
               </div>
             </div>
-          </form>
+       
+
         </div> 
       </div>
     </div>
@@ -620,5 +666,21 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <!-- custom js -->
     <script src="js/script.js"></script>
+    <script>
+      function myFunction() {
+        const node = document.getElementById("profile-tab");
+        const clone = node.cloneNode(true);
+        document.getElementById("myTab").appendChild(clone);
+
+
+        const node1 = document.getElementById("profile");
+        const clone1 = node1.cloneNode(true);
+        document.getElementById("myTabContent").appendChild(clone1);
+
+
+        
+      }
+  
+      </script>
 </body>
 </html>

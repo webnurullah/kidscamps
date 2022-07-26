@@ -29,6 +29,7 @@
     <main class="wrapper">
       <!-- -------------------------- hero section---------------------- -->
       <section class="hero-section">
+        
             <nav class="headeer w-100">
               <div class="d-flex justify-content-between align-items-center" >
                 <div class="">
@@ -45,7 +46,7 @@
                     <option value="2">EN</option>
                   </select>
                 </div>
-                <div>
+                <div class="d-none d-md-block" >
                   <img class="logo" src="images/Logo.svg" alt="">
                 </div>
               </div>
@@ -53,15 +54,15 @@
             
             <div class="container banner-section">
               <div class="row">
-                <div class="col-12 col-md-6">
+                <div class="order-2 order-md-1 col-12 col-md-6">
                   <span class="span" >ANGEBOTSSUCHE</span>
-                  <h1 class="h1">
+                  <h1 class="h1 text-center text-md-start">
                     Entdecken Sie unsere Angebote
                   </h1>
                   <div class="banner-form" >
                     <form class="row">
                       <div class="col-md-6 ">
-                        <label for="Von" class="form-label">Von</label>
+                        <label for="Von" class="form-label fw-bold">Von</label>
                         <div class="single-input" >
                           <input type="date" class="form-control" id="Von">
                           <i class="fa-solid fa-calendar"></i>
@@ -75,7 +76,7 @@
                         </div>
                       </div>
                       <div class="col-md-6">
-                          <select class="form-select" id="autoSizingSelect1">
+                          <select  class="form-select" id="autoSizingSelect1">
                             <option selected>Sprache</option>
                             <option value="1">One</option>
                             <option value="2">Two</option>
@@ -110,11 +111,21 @@
                     </form>
                   </div>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="order-1 order-md-2 col-12 col-md-6 banner-img-box">
                   <img class="img-fluid banner-img" src="images/pic.png" alt="">
+              
+                 <div class="text-end" >
+
+                  <img class="ms-auto mobile-logo d-md-none" src="images/Logo.svg" alt="">
+                 </div>
+                 <img class="combined-shape-1 d-md-none" src="images/Combined-Shape.svg" alt="">
                 </div>
               </div>
             </div>
+            
+            <div class="contact-arrow text-end" >
+              <a href="#footer-contact"> <img src="images/Contact.png" alt=""></a>
+             </div>
       </section>
 
       <!-- -------------------------- blog section---------------------- -->
@@ -131,13 +142,15 @@
                 <div class="card">
                   <img src="images/Dummy-Image.png" class="card-img-top" alt="demmy">
                   <div class="card-body">
-                    <h3 class="h3 text-uppercase">SOMMERBETREUUNG FÜR KINDER</h3>
+                    <a href="details.html">
+                      <h3 class="h3 text-uppercase">SOMMERBETREUUNG FÜR KINDER</h3>
+                    </a>
                   
                     <span class="sub-title" >PAIDAIAS ONLUS</span>
                     <ul class="list-unstyled card-list">
                       <li>
                         <i class="fa-solid fa-calendar"></i>
-                        <span>20.06. - 12.08.2022</span>
+                        <span  >20.06. - 12.08.2022</span>
                       </li>
                       <li>
                         <i class="fa-solid fa-location-dot"></i>
@@ -151,7 +164,281 @@
                 
                 </div>
               </div>
-              <div class="hr"></div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Dummy-Image-1.png" class="card-img-top" alt="demmy">
+                  <div class="card-body">
+                    <a href="details.html">
+                      <h3 class="h3 text-uppercase">SOMMERBETREUUNG FÜR KINDER</h3>
+                    </a>
+                    <span class="sub-title" >PAIDAIAS ONLUS</span>
+                    <ul class="list-unstyled card-list">
+                      <li>
+                        <i class="fa-solid fa-calendar"></i>
+                        <span  >20.06. - 12.08.2022</span>
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>St. Pauls</span>
+                      </li>
+                    </ul>
+                    <h4 class="h4" >68,00 €</h4>
+                    <p class="card-text">Anmeldung von 07.02. bis 30.04.2022</p>
+                  </div>
+           
+                
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Dummy-Image-2.png" class="card-img-top" alt="demmy">
+                  <div class="card-body">
+                    <a href="details.html">
+                      <h3 class="h3 text-uppercase">SOMMERBETREUUNG FÜR KINDER</h3>
+                    </a>
+                    <span class="sub-title" >PAIDAIAS ONLUS</span>
+                    <ul class="list-unstyled card-list">
+                      <li>
+                        <i class="fa-solid fa-calendar"></i>
+                        <span  >20.06. - 12.08.2022</span>
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>St. Pauls</span>
+                      </li>
+                    </ul>
+                    <h4 class="h4" >68,00 €</h4>
+                    <p class="card-text">Anmeldung von 07.02. bis 30.04.2022</p>
+                  </div>
+           
+                
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Dummy-Image-3.png" class="card-img-top" alt="demmy">
+                  <div class="card-body">
+                    <a href="details.html">
+                      <h3 class="h3 text-uppercase">SOMMERBETREUUNG FÜR KINDER</h3>
+                    </a>
+                    <span class="sub-title" >PAIDAIAS ONLUS</span>
+                    <ul class="list-unstyled card-list">
+                      <li>
+                        <i class="fa-solid fa-calendar"></i>
+                        <span  >20.06. - 12.08.2022</span>
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>St. Pauls</span>
+                      </li>
+                    </ul>
+                    <h4 class="h4" >68,00 €</h4>
+                    <p class="card-text">Anmeldung von 07.02. bis 30.04.2022</p>
+                  </div>
+           
+                
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Dummy-Image-4.png" class="card-img-top" alt="demmy">
+                  <div class="card-body">
+                    <a href="details.html">
+                      <h3 class="h3 text-uppercase">SOMMERBETREUUNG FÜR KINDER</h3>
+                    </a>
+                    <span class="sub-title" >PAIDAIAS ONLUS</span>
+                    <ul class="list-unstyled card-list">
+                      <li>
+                        <i class="fa-solid fa-calendar"></i>
+                        <span  >20.06. - 12.08.2022</span>
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>St. Pauls</span>
+                      </li>
+                    </ul>
+                    <h4 class="h4" >68,00 €</h4>
+                    <p class="card-text">Anmeldung von 07.02. bis 30.04.2022</p>
+                  </div>
+           
+                
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Dummy-Image-5.png" class="card-img-top" alt="demmy">
+                  <div class="card-body">
+                    <a href="details.html">
+                      <h3 class="h3 text-uppercase">SOMMERBETREUUNG FÜR KINDER</h3>
+                    </a>
+                    <span class="sub-title" >PAIDAIAS ONLUS</span>
+                    <ul class="list-unstyled card-list">
+                      <li>
+                        <i class="fa-solid fa-calendar"></i>
+                        <span  >20.06. - 12.08.2022</span>
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>St. Pauls</span>
+                      </li>
+                    </ul>
+                    <h4 class="h4" >68,00 €</h4>
+                    <p class="card-text">Anmeldung von 07.02. bis 30.04.2022</p>
+                  </div>
+           
+                
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Dummy-Image-6.png" class="card-img-top" alt="demmy">
+                  <div class="card-body">
+                    <a href="details.html">
+                      <h3 class="h3 text-uppercase">SOMMERBETREUUNG FÜR KINDER</h3>
+                    </a>
+                    <span class="sub-title" >PAIDAIAS ONLUS</span>
+                    <ul class="list-unstyled card-list">
+                      <li>
+                        <i class="fa-solid fa-calendar"></i>
+                        <span  >20.06. - 12.08.2022</span>
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>St. Pauls</span>
+                      </li>
+                    </ul>
+                    <h4 class="h4" >68,00 €</h4>
+                    <p class="card-text">Anmeldung von 07.02. bis 30.04.2022</p>
+                  </div>
+           
+                
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Dummy-Image-7.png" class="card-img-top" alt="demmy">
+                  <div class="card-body">
+                    <a href="details.html">
+                      <h3 class="h3 text-uppercase">SOMMERBETREUUNG FÜR KINDER</h3>
+                    </a>
+                    <span class="sub-title" >PAIDAIAS ONLUS</span>
+                    <ul class="list-unstyled card-list">
+                      <li>
+                        <i class="fa-solid fa-calendar"></i>
+                        <span  >20.06. - 12.08.2022</span>
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>St. Pauls</span>
+                      </li>
+                    </ul>
+                    <h4 class="h4" >68,00 €</h4>
+                    <p class="card-text">Anmeldung von 07.02. bis 30.04.2022</p>
+                  </div>
+           
+                
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Dummy-Image-8.png" class="card-img-top" alt="demmy">
+                  <div class="card-body">
+                    <h3 class="h3 text-uppercase">SOMMERBETREUUNG FÜR KINDER</h3>
+                  
+                    <span class="sub-title" >PAIDAIAS ONLUS</span>
+                    <ul class="list-unstyled card-list">
+                      <li>
+                        <i class="fa-solid fa-calendar"></i>
+                        <span  >20.06. - 12.08.2022</span>
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>St. Pauls</span>
+                      </li>
+                    </ul>
+                    <h4 class="h4" >68,00 €</h4>
+                    <p class="card-text">Anmeldung von 07.02. bis 30.04.2022</p>
+                  </div>
+           
+                
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Dummy-Image-9.png" class="card-img-top" alt="demmy">
+                  <div class="card-body">
+                    <a href="details.html">
+                      <h3 class="h3 text-uppercase">SOMMERBETREUUNG FÜR KINDER</h3>
+                    </a>
+                    <span class="sub-title" >PAIDAIAS ONLUS</span>
+                    <ul class="list-unstyled card-list">
+                      <li>
+                        <i class="fa-solid fa-calendar"></i>
+                        <span  >20.06. - 12.08.2022</span>
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>St. Pauls</span>
+                      </li>
+                    </ul>
+                    <h4 class="h4" >68,00 €</h4>
+                    <p class="card-text">Anmeldung von 07.02. bis 30.04.2022</p>
+                  </div>
+           
+                
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Dummy-Image-10.png" class="card-img-top" alt="demmy">
+                  <div class="card-body">
+                    <a href="details.html">
+                      <h3 class="h3 text-uppercase">SOMMERBETREUUNG FÜR KINDER</h3>
+                    </a>
+                    <span class="sub-title" >PAIDAIAS ONLUS</span>
+                    <ul class="list-unstyled card-list">
+                      <li>
+                        <i class="fa-solid fa-calendar"></i>
+                        <span  >20.06. - 12.08.2022</span>
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>St. Pauls</span>
+                      </li>
+                    </ul>
+                    <h4 class="h4" >68,00 €</h4>
+                    <p class="card-text">Anmeldung von 07.02. bis 30.04.2022</p>
+                  </div>
+           
+                
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Dummy-Image.png" class="card-img-top" alt="demmy">
+                  <div class="card-body">
+                    <a href="details.html">
+                      <h3 class="h3 text-uppercase">SOMMERBETREUUNG FÜR KINDER</h3>
+                    </a>
+                    <span class="sub-title" >PAIDAIAS ONLUS</span>
+                    <ul class="list-unstyled card-list">
+                      <li>
+                        <i class="fa-solid fa-calendar"></i>
+                        <span  >20.06. - 12.08.2022</span>
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>St. Pauls</span>
+                      </li>
+                    </ul>
+                    <h4 class="h4" >68,00 €</h4>
+                    <p class="card-text">Anmeldung von 07.02. bis 30.04.2022</p>
+                  </div>
+           
+                
+                </div>
+              </div>
+              <div class="hr d-none d-md-block"></div>
           </div>
           <div class="row">
             <div class="text-center">
@@ -162,23 +449,26 @@
       </section>
 
       <!-- -------------------------- info section---------------------- -->
-      <section class="city-logo-section" >
+      <section id="footer-contact" class="city-logo-section" >
         <div class="container text-center">
           <div class="row">
             <div class="col-12">
-              <img src="images/City-Logo.png" alt="">
+              <img class="city-logo-img"  src="images/City-Logo.png" alt="">
               <h6 class="h6" >GEMEINDE EPPAN</h6>
             </div>
           </div>
         </div>
-       <img class="combined-shape" src="images/Combined-Shape.svg" alt="">
-       <div class="circle-rac">
-         <img src="images/circlerac.svg" alt="">
-         <i class="fa-solid fa-comment"></i>
-       </div>
+       <img class="combined-shape d-none d-md-block" src="images/Combined-Shape.svg" alt="">
+      
+        <div class="circle-rac">
+          <img src="images/circlerac.svg" alt="">
+          <i class="fa-solid fa-comment"></i>
+          <i class="d-md-none fa-solid fa-arrow-down"></i>
+        </div>
+      
       
         <div class="info-section text-center">
-            <span>ANSPRECHPERSON</span>
+            <span >ANSPRECHPERSON</span>
             <ul class="list-unstyled ">
               <li class="fw-bold" >Christoph Brigl  </li>
               <li><a class="text-decoration-none" href="">Tel. 0471 66 75 17</a></li>
@@ -188,35 +478,33 @@
       
       </section>
 
-      <!-- -------------------------- footer section---------------------- -->
-      <section class="footer-section" >
-        <div class="container-fluid">
-          <div class="row ">
-            <div class="col-12 col-xl-8 col-xxl-6" >
-              <div class="d-flex justify-content-between align-items-center">
-                <img class="footer-logo" src="images/Footer-Logo.svg" alt="">
-                <ul class="list-unstyled list-inline text-white" >
-                  <li class="list-inline-item" ><a href="">REGISTRIERUNG ANBIETER</a></li>
-              <span>.&nbsp;</span>
-                 
-                  <li class="list-inline-item" ><a href="">LOGIN</a></li>
-                  <span>.&nbsp;</span>
-                  <li class="list-inline-item" ><a href="">IMPRESSUM</a></li>
-                  <span>.&nbsp;</span>
-                  <li class="list-inline-item" ><a href=""> DATENSCHUTZ & COOKIES</a></li>
-                </ul>
-              </div>
-
-            </div>
-            <div class="col-12 col-xl-4 col-xxl-6 text-end">
-                <div class="align-self-center" >
-                  <span class="text-white" >Mwst.Nr. 00264460213</span>
-                <img class="mf" src="images/MF.svg" alt="">
-                </div>
-            </div>
+     <!-- -------------------------- footer section---------------------- -->
+     <section class="footer-section" >
+      <div class="d-flex flex-column flex-lg-row justify-content-center justify-content-xl-between align-items-center flex-wrap">
+          <div class="d-flex flex-column flex-lg-row justify-content-center justify-content-xl-between align-items-center flex-wrap ">
+            <img class="footer-logo" src="images/Footer-Logo.svg" alt="">
+            <ul class="list-unstyled d-flex flex-column flex-lg-row text-white" >
+              <li ><a href="">REGISTRIERUNG ANBIETER</a></li>
+              <span class="d-none d-lg-inline-block" >.&nbsp; &nbsp;</span>
+             
+              <li ><a href="">LOGIN</a></li>
+              <span class="d-none d-lg-inline-block" >.&nbsp;&nbsp;</span>
+              <li ><a href="">IMPRESSUM</a></li>
+              <span class="d-none d-lg-inline-block" >.&nbsp;&nbsp;</span>
+              <li ><a href=""> DATENSCHUTZ & COOKIES</a></li>
+            </ul>
           </div>
-        </div>
-      </section>
+       
+          <div class="d-flex flex-column flex-lg-row justify-content-around align-items-center" >
+              <span class="text-white nong" >Mwst.Nr. 00264460213</span>
+              <img class="mf" src="images/MF.svg" alt="">
+          </div>
+       
+      </div>
+ 
+    </section> 
+
+    
     </main>
 
 

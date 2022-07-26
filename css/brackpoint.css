@@ -8,11 +8,18 @@
     .details-page-banner .pic{
         width: 500px;
     }
+    .footer-section .mf{
+        margin-left: 50px;
+    }
+    .footer-section .footer-logo{
+        margin-right: 50px;
+    }
 }
 @media (max-width:1500px){
     .details-page-banner .pic{
         width: 450px;
     }
+    .hero-section .headeer,
     .details-page-banner .details-headeer {
         padding-left: 5%;
     }
@@ -30,8 +37,29 @@
     .details-page-banner{
         padding-bottom: 94px;
     }
+    .city-logo-section .circle-rac{
+        right: 2%;
+    }
+    .contact-arrow{  
+        right: 30px;
+        bottom: 50px;
+    }
+    .contact-arrow img{
+        width: 60px;
+    }
 }
 @media (max-width:1200px){
+    .hero-section .headeer .logo {
+        position: relative;
+        top: 0px;
+        right: 20px;
+        width: 180px;
+    }
+    .hero-section .headeer .navbar-logo{
+        width: 50px;
+    }
+   
+    /* details page */
     .details-page-banner{
         padding-bottom: 170px;
         background: url(../images/mobilebg.svg) top center no-repeat;
@@ -40,6 +68,7 @@
     .details-page-banner .first-row .banner-info p, .banner-info span {
         margin-left: 15px;
     }
+    .hero-section .headeer, 
     .details-page-banner .details-headeer {
         padding-right: 3%;
     }
@@ -60,12 +89,51 @@
     h2, .h2{
         font-size: 45px;
     }
+    h1, .h1{
+        font-size: 60px;
+       
+    }
+    h4, .h4 {
+        font-size: 40px;
+     
+       
+    }
     .details-page-banner .comshap{
         position: relative;
         top: -870px;
     }
+    .hero-section {
+        margin-bottom: 0px;
+    }
+    .banner-section .span{
+        margin-top: 140px ;
+    }
+    .contact-arrow{  
+        right: 50px;
+        bottom: 30px;
+    }
+    .contact-arrow img{
+        width: 55px;
+    }
 }
 @media (max-width:992px){
+    .hero-section .headeer .navbar-logo{
+        width: 45px;
+    }
+    .hero-section .headeer .logo {
+        position: relative;
+        top: 0px;
+        right: 20px;
+        width: 140px;
+    }
+    .blog-section{
+        padding-top: 60px;
+        padding-bottom: 50px;
+    }
+    h6, .h6{
+        font-size: 16px;
+    }
+  
     .details-page-banner .comshap{
         position: relative;
         top: -830px;
@@ -90,6 +158,17 @@
     .organization-section {
         padding: 100px 0px 90px;
     }
+
+    h1, .h1{
+        font-size: 45px;
+        line-height: 45px;
+        
+    }
+    h4, .h4 {
+        font-size: 38px;
+        line-height: 38px;
+       
+    }
     h2, .h2{
         font-size: 40px;
         line-height: 45px;
@@ -101,8 +180,83 @@
         top: -13px;
         width: 60px;
     }
+
+    .footer-section{
+        padding: 50px 0px 60px;
+    }
+    .footer-section .footer-logo{
+        margin: 0px auto 28px;
+    }
+    .footer-section .mf{
+        margin: 40px auto 0px;
+    }
+    .footer-section .nong{
+        display: block;
+        margin-top: 20px;
+    }
+    .banner-section .span{
+        margin-top: 100px ;
+       
+    }
+   
+    .hero-section .headeer .navbar-logo {
+        margin-right: 18px;
+    }
 }
 @media (max-width:768px){
+ 
+
+    .hero-section .headeer .navbar-logo {
+    width: 43px;
+    }
+    .hero-section .headeer .navbar-logo {
+        margin-right: 12px;
+    }
+    .brand-logo span {
+        font-size: 16px;
+    }
+    .blog-section .row{
+        --bs-gutter-x: 20px !important;
+        --bs-gutter-y: 20px !important;
+    }
+    .blog-section .row .col:nth-child( odd ){
+        margin-top: 30px;
+    }
+    .btn-second{
+        font-size: 14px;
+    }
+    .city-logo-section .fa-comment{
+        font-size: 23px;
+        top: 4px;
+        right: 40px;
+    }
+    .city-logo-section .circle-rac{
+        right: 45%;
+        top: 37%;
+    }
+    .city-logo-section .circle-rac .fa-arrow-down{
+        position: absolute;
+        top: 48%;
+        left: 32%;
+        font-size: 13px;
+        color: var(--orange);
+        transform: translate(-50%,-50%);
+    }
+    .city-logo-section .circle-rac img{
+        width: 48px;
+    }
+    .info-section{
+        padding: 60px 0px;
+    }
+    .info-section span{
+        font-size: 14px;
+        margin-bottom: 12px;
+        line-height: 30px;
+    }
+    .info-section ul li{
+        font-size: 14px;
+    }
+    /* details page */
     .details-page-banner .comshap{
         position: relative;
         top: -920px;
@@ -138,12 +292,22 @@
         padding-bottom: 70px;
     }
     .organization-section {
-        padding: 80px 0px 70px;
+        padding: 80px 0px 00px;
        
     }
     h2, .h2{
         font-size: 35px;
         line-height: 30px;
+    }
+    h1, .h1{
+        font-size: 40px;
+        line-height: 36px;
+        
+    }
+    h4, .h4 {
+        font-size: 36px;
+        line-height: 24px;
+       
     }
     .p-60{
         padding-top: 60px;
@@ -175,8 +339,132 @@
         top: -12px;
         width: 47px;
     }
+    .downarrow-box{
+        margin-bottom: -23px;
+         top: 0;
+         bottom: 0;
+         right: 0;
+         left: 0;
+     }
+     .banner-section .span{
+        margin-top: 94px ;
+        font-size: 12px;
+        text-align: center; 
+    }
+    .hero-section::after{
+        top: 400px;
+        background-image: url(../images/mobile-banner-shap.svg);
+        background-size: contain;
+    }
+    .combined-shape-1 {
+        position: absolute;
+        top: 80%;
+        left: -20%;
+    }
+    .contact-arrow{  
+        right: 30px;
+        bottom: 0px;
+        top: 759px;
+    }
+    .contact-arrow img{
+        width: 48px;
+    }
 }
 @media (max-width:576px){
+ 
+    .combined-shape-1{
+       
+        left: -48px;
+       
+    }
+    .hero-section .headeer .navbar-logo{
+        width: 37px;
+    }
+    .brand-logo span{
+        font-size: 12px;
+    }
+    .hero-section .headeer{
+        padding-top: 20px;
+       padding-left: 20px;
+       padding-right: 0px;
+    }
+    .hero-section::after{
+        top: 380px;
+        background-size: contain;
+    }
+    .banner-section .banner-img {
+        margin-top: 32px;
+        margin-left: -20px;
+    }
+    .banner-section .h1{
+        padding: 20px 0px 40px;
+        margin-bottom: 0px;
+    }
+    .hero-section .btn-first{
+        margin-top: 20px;
+    }
+    .banner-form .form-select, .banner-form .form-control{
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+  
+    .blog-section .h2 {
+        margin-top: 20px;
+        margin-bottom: 90px;
+    }
+    .blog-section .span{
+        font-size: 12px;
+    }
+    .blog-section .card-body{
+        padding: 20px 20px 20px 20px !important;
+    }
+    .blog-section .card .h4 {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+    .blog-section .card .card-list li i,
+    .blog-section .card .card-list li span{
+        font-size: 14px;
+       
+       
+    }
+    .blog-section .card .card-list li i{
+        margin-right: 18px;
+    }
+    .blog-section .card .sub-title{
+        padding-top: 20px;
+        padding-bottom:20px ;
+        line-height: 24px;
+    }
+
+    .blog-section .hr{
+        display: none;
+    }
+    .blog-section .btn-second{
+        margin-top: 40px;
+    }
+    .btn-second{
+        font-size: 12px;
+    }
+    h3, .h3{
+        font-size: 18px;
+    }
+    h6, .h6{
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    .city-logo-img{
+        width: 47px;
+    }
+    .blog-section{
+        padding-top: 40px;
+        padding-bottom: 0px;
+    }
+    .city-logo-section .circle-rac{
+        top: 32%;
+        right: 40%;
+    }
+    /* -------------details page----------------- */
     .details-page-banner .comshap{
         position: relative;
         top: -3px;
@@ -214,6 +502,7 @@
     .Wo-box p {
         line-height: 24px;
     }
+    .hero-section .headeer,
     .details-page-banner .details-headeer {
         padding-top: 20px;
     }
@@ -261,7 +550,7 @@
         padding-bottom: 60px;
     }
     .organization-section {
-        padding: 70px 0px 60px;
+        padding: 70px 0px 0px;
     }
  
     .organization-section ul li{
@@ -298,6 +587,20 @@
         width: 85px;
         left: -15px;
     }
+
+    .footer-section{
+        padding:28px 0px 25px;
+    }
+    .contact-arrow{  
+        right: 20px;
+        bottom: 0px;
+        top: 45%;
+    }
+}
+@media (max-width:450px) {
+    .contact-arrow{
+        top: 41%;
+    }
 }
 @media (max-width:400px){
     .details-page-banner .comshap {
@@ -306,5 +609,16 @@
         width: 74px;
         left: -15px;
     }
+    .hero-section::after{
+        top: 354px;
+        background-size: contain;
+    }
+    .contact-arrow{
+        
+        right: 20px;
+        bottom: 0px;
+        top: 39%;
 
+    
+    }
 }

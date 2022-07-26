@@ -97,8 +97,20 @@ h6, .h6{
 .cp{
     cursor: pointer;
 }
-
-
+.contact-arrow{
+    position: absolute;
+    right: 140px;
+    bottom: 150px;
+}
+.contact-arrow img{
+    width: 62px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: var(--green);
+}
 /* page design star */
 .brand-logo span{
     font-size: 20px;
@@ -128,8 +140,7 @@ h6, .h6{
 }
 .hero-section{
     position: relative;
-    /* height: 100vh; */
-    
+    padding-bottom: 100px;
 }
 .hero-section::after{
     content: '';
@@ -144,8 +155,9 @@ h6, .h6{
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
-  
-   
+}
+.mobile-banner{
+    object-fit: cover;
 }
 .hero-section .headeer, .details-page-banner .details-headeer{
     padding-top: 35px;
@@ -154,19 +166,27 @@ h6, .h6{
 .hero-section .headeer .navbar-logo{
     margin-right: 20px;
 }
-.hero-section .headeer .logo{
+.hero-section .headeer .logo {
     position: relative;
-   top: 78px;
-   right: 112px;
+    top: 45px;
+    right: 112px;
 }
+.mobile-logo{
+    width: 177px;
+    margin-top: 20px;
+}
+.banner-img-box{
+    position: relative;
+}
+
 .banner-section{
-    margin-bottom: 100px;
+   
 }
 .banner-section .h1{
   padding: 30px 0px 60px;
 }
-.banner-section span{
-  margin-top: 178px !important;
+.banner-section .span{
+  margin-top: 178px ;
   display: block;
   
 }
@@ -218,9 +238,13 @@ h6, .h6{
     border-radius: 0px !important;
     font-weight: bold;
     opacity: 0.7;
-    padding: 8px 0px !important;
+    padding-right: 40px;
+    padding-left: 0px;
     border-bottom: 2px solid  var(--grayxdark) !important;
 }
+.banner-form .form-select *{
+    background:#edf2ff;
+} 
 .banner-form .form-select option{
     border-radius: none !important;
     padding: 8px !important;
@@ -269,12 +293,16 @@ h6, .h6{
  padding-bottom: 30px;
  display: block;
 }
-.blog-section .card .card-list ul li i,
-.blog-section .card .card-list ul li span{
+.blog-section .card .card-list li i,
+.blog-section .card .card-list li span{
     font-size: 16px;
     line-height: 32px;
     opacity: 100%;
     color: var(--green);
+   
+}
+.blog-section .card .card-list li i{
+    margin-right: 15px;
 }
 .blog-section .card .h4{
  color: var(--orange);
@@ -309,7 +337,7 @@ h6, .h6{
 }
 .blog-section .btn-second{
     margin-top: 63px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 .info-section{
   background-color: var(--graylshad);
@@ -351,7 +379,7 @@ h6, .h6{
 }
 .city-logo-section .fa-comment{
     position: relative;
-    top: 5px;
+    top: 7px;
     right: 50px;
     font-size: 30px;
     color: var(--white);
@@ -361,6 +389,8 @@ h6, .h6{
 .footer-section{
     background-color: var(--green);
     padding:24px 142px 23px;
+    font-size: 12px;
+    text-align: center;
 }
 .footer-section .footer-logo{
     max-width: 135px;
@@ -374,11 +404,14 @@ h6, .h6{
     letter-spacing: 2.16px;
 }
 .footer-section ol, ul, dl {
-    margin-top: auto !important;
+    margin-top: 0 !important;
     margin-bottom: 0px;
 }
 .footer-section .mf{
     margin-left: 105px;
+}
+.footer-section .footer-logo{
+    margin-right: 105px;
 }
 
 
@@ -717,7 +750,78 @@ color: var(--green);
     box-shadow: none;
 }
 
+.downarrow-box{
+    right: 26px;
+    bottom: 26px;
+    z-index: 5;
+}
+.downarrow-box .rec{
+    width: 48px;
+}
+.downarrow-box .fa-comment{
+    font-size: 23px;
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   z-index: 2;
+   color: var(--white);
+}
+.downarrow-box .fa-arrow-down{
+    font-size: 23px;
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+     z-index: 3;
+    color: var(--orange);
+    font-size: 10px;
+}
+.hover-address-box{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 417px;
+    margin: 0px 64px 50px 0px;
+    padding: 25px 20px;
+    border-radius: 16px;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.05);
+    background-color: var(--white);
+    z-index: 4;
+    opacity: 0;
+    transition: all .5s;
+}
+.hover-address-box img{
+   margin-right: 30px;
+   width: 76px;
+   height: 98px;
+}
+.message-hover{
+    cursor: pointer;
+}
+.message-hover .rotedbox{
+    position: fixed;
+    right: 50px;
+    bottom: 48px;
+    transition: all .5s;
+}
+.message-hover:hover .rotedbox{
+    transform: rotate(260deg);
+}
 
+
+
+.hover-address-box h5{
+    font-size:23px;
+}
+.hover-address-box .span{
+    font-size: 13px;
+}
+.hover-address-box ul li{
+    line-height: 30px;
+}
 .mb-20{
     margin-bottom: 20px;
 }
