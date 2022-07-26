@@ -202,6 +202,16 @@
     .hero-section .headeer .navbar-logo {
         margin-right: 18px;
     }
+    .city-logo-section{
+        padding-top: 0px;
+    }
+
+    .city-logo-section .circle-rac{
+        top: 35%;
+    }
+    .city-logo-section .combined-shape{
+        top: 32%;
+    }
 }
 @media (max-width:768px){
  
@@ -369,6 +379,7 @@
     .contact-arrow img{
         width: 48px;
     }
+   
 }
 @media (max-width:576px){
  
@@ -460,6 +471,7 @@
         padding-top: 40px;
         padding-bottom: 0px;
     }
+
     .city-logo-section .circle-rac{
         top: 32%;
         right: 40%;
@@ -596,11 +608,15 @@
         bottom: 0px;
         top: 45%;
     }
+    .city-logo-section{
+        padding-top: 0px;
+    }
 }
 @media (max-width:450px) {
     .contact-arrow{
         top: 41%;
     }
+
 }
 @media (max-width:400px){
     .details-page-banner .comshap {
