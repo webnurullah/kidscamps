@@ -525,14 +525,13 @@
 
               <div class="col-md-8 d-flex">
                 <ul class="nav nav-tabs align-self-end" id="myTab" role="tablist">
+                 
                   <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">1.Kind</button>
-                  </li>
-                  <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">2.Kind
-                      <i onclick="removetab()" class="fa-solid fa-trash"></i>
+                    <button class="nav-link active" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">1.Kind
+                      
                     </button>
                   </li>
+               
                 </ul>
               </div>
 
@@ -541,123 +540,76 @@
              <div class="hr m-30"></div>
              <div class="row mb-20">
               <div class="col-md-8 offset-md-4">
-                  <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                          <div class="row">
-                            <div class="col-md-6">
-                              <input placeholder="Vorname"  type="text" class="form-control">
-                              <div class="single-input" >
-                                <input placeholder="Geburtstag"  type="text" class="form-control">
-                                <i class="fa-solid fa-calendar"></i>
-                              </div>
-                            </div>
-                            <div class="col-md-6">
-                              <input placeholder="Nachname"  type="text" class="form-control">
-                              <input placeholder="Geburtstag"  type="text" class="form-control">
-                            </div>
-                        </div>
-                        <div class="row">
-                          <div class="col-md-12">
-                            <input placeholder="Steuernummer"  type="text" class="form-control">
-                          </div>
-                        </div>
-                        <div class="row check-row">
-                          <div class="col-md-4">
-                            <span class="fw-bold pb-4 d-block" >Schulstufe</span>
-                          </div>
-                          <div class="col-md-4">
-                            <div class="form-check">
-                              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
-                              <label class="form-check-label" for="flexRadioDefault1">
-                                Kindergarten
-                              </label>
-                            </div>
-                            <div class="form-check">
-                              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
-                              <label class="form-check-label" for="flexRadioDefault2">
-                                Mittelschule
-                              </label>
-                            </div>
-                          </div>
-                          <div class="col-md-4">
-                            <div class="form-check">
-                              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
-                              <label class="form-check-label" for="flexRadioDefault3">
-                                Grundschule
-                              </label>
-                            </div>
-                            <div class="form-check">
-                              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4" >
-                              <label class="form-check-label" for="flexRadioDefault4">
-                                Oberschule
-                              </label>
-                            </div>
-                          </div>
-                        </div>
+                <div class="tab-content" id="myTabContent">
+                   
+                  <div class="tab-pane fade show active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
 
 
-                        <div class="row">
-                          <div class="col-12">
-                            <input  placeholder="Wichtige Hinweise (z.B. Allergene)"  type="text" class="form-control">
-                          </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                      <div class="row">
-                        <div class="col-md-6">
-                          <input placeholder="Vorname"  type="text" class="form-control">
-                          <div class="single-input" >
-                            <input placeholder="Geburtstag"  type="text" class="form-control">
-                            <i class="fa-solid fa-calendar"></i>
-                          </div>
-                        </div>
-                        <div class="col-md-6">
-                          <input placeholder="Nachname"  type="text" class="form-control">
-                          <input placeholder="Geburtstag"  type="text" class="form-control">
-                        </div>
-                    </div>
                     <div class="row">
-                      <div class="col-md-12">
-                        <input placeholder="Steuernummer"  type="text" class="form-control">
-                      </div>
-                    </div>
-                    <div class="row check-row">
-                      <div class="col-md-4">
-                        <span class="fw-bold pb-4 d-block" >Schulstufe</span>
-                      </div>
-                      <div class="col-md-4">
-                        <div class="form-check">
-                          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
-                          <label class="form-check-label" for="flexRadioDefault1">
-                            Kindergarten
-                          </label>
-                        </div>
-                        <div class="form-check">
-                          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
-                          <label class="form-check-label" for="flexRadioDefault2">
-                            Mittelschule
-                          </label>
+                      <div class="col-md-6">
+                        <input placeholder="Vorname"  type="text" class="form-control">
+                        <div class="single-input" >
+                          <input placeholder="Geburtstag"  type="text" class="form-control">
+                          <i class="fa-solid fa-calendar"></i>
                         </div>
                       </div>
-                      <div class="col-md-4">
-                        <div class="form-check">
-                          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
-                          <label class="form-check-label" for="flexRadioDefault3">
-                            Grundschule
-                          </label>
-                        </div>
-                        <div class="form-check">
-                          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4" >
-                          <label class="form-check-label" for="flexRadioDefault4">
-                            Oberschule
-                          </label>
-                        </div>
+                      <div class="col-md-6">
+                        <input placeholder="Nachname"  type="text" class="form-control">
+                        <input placeholder="Geburtstag"  type="text" class="form-control">
                       </div>
-                    </div>
-                    
-                    </div>
-                 
                   </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <input placeholder="Steuernummer"  type="text" class="form-control">
+                    </div>
+                  </div>
+                  <div class="row check-row">
+                    <div class="col-md-4">
+                      <span class="fw-bold pb-4 d-block" >Schulstufe</span>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Kindergarten
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
+                        <label class="form-check-label" for="flexRadioDefault2">
+                          Mittelschule
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                        <label class="form-check-label" for="flexRadioDefault3">
+                          Grundschule
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4" >
+                        <label class="form-check-label" for="flexRadioDefault4">
+                          Oberschule
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <input  placeholder="Wichtige Hinweise (z.B. Allergene)"  type="text" class="form-control">
+                    </div>
+                  </div>
+
+
+
+
+
+
+                  </div>
+               
+                </div>
               </div>
             
             </div>
@@ -718,22 +670,58 @@
     <!-- custom js -->
     <script src="js/script.js"></script>
     <script>
+
+      var MenuID= "profile-tab"
+      var FormID= "profile"
+      var num=1
       function myFunction() {
+        MenuID= MenuID +1
+        FormID= FormID +1
+        num=num+1
+  
+      
 
 
         const node = document.getElementById("profile-tab");
+       
         const clone = node.cloneNode(true);
-        document.getElementById("myTab").appendChild(clone);
+        clone.setAttribute("id",MenuID);
+        clone.setAttribute("data-bs-target","#" + FormID);
+        clone.setAttribute("aria-controls",FormID);
+        clone.classList.remove("active")
+        clone.innerHTML= `${num}. Kind <i  class="fa-solid fa-trash" onclick="remove(${num})"></i>`
+        const item=document.createElement("li")
+        item.className="nav-item"
+        item.classList.add("num"+num)
+        item.setAttribute("role","presentation")
+        item.appendChild(clone)
+        document.getElementById("myTab").appendChild(item);
 
 
+    
         const node1 = document.getElementById("profile");
         const clone1 = node1.cloneNode(true);
+        clone1.setAttribute("id",FormID);
+        clone1.setAttribute("aria-labelledby",MenuID);
+        clone1.setAttribute("class",`tab-pane fade tum${num} show`)
         document.getElementById("myTabContent").appendChild(clone1);
 
+      
        
-        
       }
-  
+     function remove(num){
+       const node = document.getElementById("profile-tab");
+       node.classList.add("active")
+       
+      const tabClass="num"+num
+      const tab = document.getElementsByClassName(tabClass);
+      tab[0].remove()
+      const formClass="tum"+num
+      const form =document.getElementsByClassName(formClass)
+      form[0].remove()
+      const node1 = document.getElementById("profile")
+      node1.className="active show"
+    }
       </script>
 </body>
 </html>
